@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+</head>
+<style>
+    body {
+        left: 0px;
+        height: 0px;
+        background-color: black;
+    }
+
+    h1 {
+        color: rgb(7, 248, 7);
+    }
+
+    .window {
+        display: flex;
+    }
+
+    #password {
+        color: rgb(7, 248, 7);
+        padding-left: 50px;
+        font-size: large;
+        border: 2px solid rgb(180, 83, 83);
+        width: 17rem;
+        height: 17rem;
+        margin-left: 8rem;
+        margin-top: 2rem
+    }
+
+    #password p {
+        font-size: x-large;
+    }
+
+    .bt {
+        display: flex;
+        flex-direction: column;
+        width: 2cm;
+        margin-top: 45px;
+    }
+
+    button {
+        height: 32px;
+        width: 91px;
+        margin-top: 4px;
+        background-color: #42306f;
+        color: lime;
+        border: 2px solid greenyellow;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .paragraph {
+        margin-top: 27px;
+        margin-bottom: -36px;
+        font-size: large;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Password manager</h1>
+    </center>
+    <br>
+    <div class="window">
+        <div id="password">
+            <p>Enter the Password:</p>
+            <input type="password" name="password" id="pass" placeholder="enter password">
+            <div class="paragraph">
+                For Manually Generate Password :
+            </div>
+            <div class="bt">
+                <button type="button" id="strong">Strong</button>
+                <button type="button" id="medium">Medium</button>
+                <button type="button" id="Funny">Funny</button>
+            </div>
+        </div>
+        <div id="show">
+
+        </div>
+    </div>
+
+</body>
+<script src="7.js"></script>
+
+</html>

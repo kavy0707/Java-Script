@@ -1,0 +1,14 @@
+.first{
+    color: red;
+    font-size: larger
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    padding-left: 5cm;
+}
+nav li{
+    text-decoration: none;
+    text-style: none;
+    font-style: none;
+}
